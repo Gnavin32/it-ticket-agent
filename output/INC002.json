@@ -1,0 +1,23 @@
+{
+  "ticket_id": "INC002",
+  "subject": "Laptop screen flickering",
+  "description": "My Dell laptop screen has been flickering intermittently since yesterday. It's making it hard to work.",
+  "user_email": "jane.doe@company.com",
+  "user_name": "Jane Doe",
+  "category": "Hardware Issue",
+  "urgency": "Medium",
+  "confidence": 0.92,
+  "reasoning": "The ticket describes intermittent screen flickering on a Dell laptop, which is a typical hardware display issue.",
+  "assignment_group": "Desktop Support",
+  "resolution_status": "Assigned",
+  "resolution_notes": "Assigned to Desktop Support",
+  "email_body": "\nHello,\n\nTicket Reference: INC002\n\nCategory: Hardware Issue\nStatus: Assigned\n\nAssigned to Desktop Support\n\nThank you,\nIT Service Desk\n",
+  "actions_log": [
+    "[2026-06-19T07:14:03.215Z] Ticket intake processed",
+    "[2026-06-19T07:14:08.255Z] Classified as Hardware Issue",
+    "[2026-06-19T07:14:08.261Z] Assigned to Desktop Support",
+    "[2026-06-19T07:14:08.265Z] Email generated",
+    "[2026-06-19T07:14:08.269Z] Ticket updated"
+  ],
+  "error": ""
+}

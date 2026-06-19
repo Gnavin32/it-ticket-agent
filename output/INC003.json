@@ -1,0 +1,23 @@
+{
+  "ticket_id": "INC003",
+  "subject": "Need access to SharePoint site",
+  "description": "I recently joined the marketing team and need access to the Marketing SharePoint site and Teams channel.",
+  "user_email": "bob.wilson@company.com",
+  "user_name": "Bob Wilson",
+  "category": "Access Request",
+  "urgency": "Medium",
+  "confidence": 0.92,
+  "reasoning": "User explicitly requests access to a SharePoint site and Teams channel.",
+  "assignment_group": "Identity & Access Team",
+  "resolution_status": "Assigned",
+  "resolution_notes": "Assigned to Identity & Access Team",
+  "email_body": "\nHello,\n\nTicket Reference: INC003\n\nCategory: Access Request\nStatus: Assigned\n\nAssigned to Identity & Access Team\n\nThank you,\nIT Service Desk\n",
+  "actions_log": [
+    "[2026-06-19T07:14:08.282Z] Ticket intake processed",
+    "[2026-06-19T07:14:11.093Z] Classified as Access Request",
+    "[2026-06-19T07:14:11.099Z] Assigned to Identity & Access Team",
+    "[2026-06-19T07:14:11.103Z] Email generated",
+    "[2026-06-19T07:14:11.107Z] Ticket updated"
+  ],
+  "error": ""
+}

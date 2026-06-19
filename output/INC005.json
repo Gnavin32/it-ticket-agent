@@ -1,0 +1,23 @@
+{
+  "ticket_id": "INC005",
+  "subject": "VPN disconnects every 10 minutes",
+  "description": "Since the last update, my VPN drops every 10 minutes. I'm on Windows 11 using GlobalProtect. I've tried reinstalling but the issue persists.",
+  "user_email": "charlie.davis@company.com",
+  "user_name": "Charlie Davis",
+  "category": "Network/Connectivity",
+  "urgency": "Medium",
+  "confidence": 0.92,
+  "reasoning": "The ticket describes a VPN connection that drops every 10 minutes, which is a clear network connectivity issue. The problem is recurring and likely impacts work, but it is not described as an emergency or critical outage.",
+  "assignment_group": "Network Operations",
+  "resolution_status": "Assigned",
+  "resolution_notes": "Assigned to Network Operations",
+  "email_body": "\nHello,\n\nTicket Reference: INC005\n\nCategory: Network/Connectivity\nStatus: Assigned\n\nAssigned to Network Operations\n\nThank you,\nIT Service Desk\n",
+  "actions_log": [
+    "[2026-06-19T07:14:14.626Z] Ticket intake processed",
+    "[2026-06-19T07:14:19.592Z] Classified as Network/Connectivity",
+    "[2026-06-19T07:14:19.597Z] Assigned to Network Operations",
+    "[2026-06-19T07:14:19.602Z] Email generated",
+    "[2026-06-19T07:14:19.607Z] Ticket updated"
+  ],
+  "error": ""
+}
