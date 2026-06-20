@@ -4,18 +4,16 @@
   "description": "help computer broken thing not work",
   "user_email": "alice.brown@company.com",
   "user_name": "Alice Brown",
-  "category": "Hardware Issue",
+  "category": "General Inquiry",
   "urgency": "Low",
   "confidence": 0.4,
-  "reasoning": "The description is very vague and generic, only stating that the computer is broken and not working. This could refer to a hardware problem, but the lack of detail makes the classification uncertain.",
+  "reasoning": "Ticket is vague and generic.",
   "assignment_group": "AI Review Queue",
   "resolution_status": "Fallback",
-  "resolution_notes": "Low confidence classification — requires manual review",
-  "email_body": "",
+  "resolution_notes": "Low confidence classification \u2014 requires manual review. confidence 0.40 below threshold 0.6",
   "actions_log": [
-    "[2026-06-19T07:14:11.122Z] Ticket intake processed",
-    "[2026-06-19T07:14:14.571Z] Classified as Hardware Issue",
-    "[2026-06-19T07:14:14.576Z] Sent to AI Review Queue"
-  ],
-  "error": ""
+    "[2026-06-20T04:18:23Z] Ticket INC004 intake OK",
+    "[2026-06-20T04:18:27Z] Classified as General Inquiry / Low (confidence 0.40)",
+    "[2026-06-20T04:18:27Z] Fallback to AI Review Queue: confidence 0.40 below threshold 0.6"
+  ]
 }

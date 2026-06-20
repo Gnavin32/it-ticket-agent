@@ -6,18 +6,17 @@
   "user_name": "Jane Doe",
   "category": "Hardware Issue",
   "urgency": "Medium",
-  "confidence": 0.92,
-  "reasoning": "The ticket describes intermittent screen flickering on a Dell laptop, which is a typical hardware display issue.",
+  "confidence": 0.9,
+  "reasoning": "Screen flickering indicates a hardware problem with the laptop display.",
   "assignment_group": "Desktop Support",
   "resolution_status": "Assigned",
-  "resolution_notes": "Assigned to Desktop Support",
-  "email_body": "\nHello,\n\nTicket Reference: INC002\n\nCategory: Hardware Issue\nStatus: Assigned\n\nAssigned to Desktop Support\n\nThank you,\nIT Service Desk\n",
+  "resolution_notes": "Assigned to Desktop Support for Hardware Issue (Medium urgency).",
+  "email_body": "Subject: Update on your ticket INC002 \u2013 Laptop screen flickering\n\nHi Jane,\n\nThanks for reaching out about the flickering screen. Your ticket (INC002) has been assigned to our Desktop Support team. A specialist will contact you shortly to resolve the issue. No action is needed from you at this time.\n\nIf you have any questions, feel free to reply.\n\nBest regards,\nIT Support",
   "actions_log": [
-    "[2026-06-19T07:14:03.215Z] Ticket intake processed",
-    "[2026-06-19T07:14:08.255Z] Classified as Hardware Issue",
-    "[2026-06-19T07:14:08.261Z] Assigned to Desktop Support",
-    "[2026-06-19T07:14:08.265Z] Email generated",
-    "[2026-06-19T07:14:08.269Z] Ticket updated"
-  ],
-  "error": ""
+    "[2026-06-20T04:18:05Z] Ticket INC002 intake OK",
+    "[2026-06-20T04:18:06Z] Classified as Hardware Issue / Medium (confidence 0.90)",
+    "[2026-06-20T04:18:06Z] Assigned to Desktop Support",
+    "[2026-06-20T04:18:12Z] Notification email generated for jane.doe@company.com",
+    "[2026-06-20T04:18:12Z] Ticket finalized \u2014 status=Assigned group=Desktop Support"
+  ]
 }

@@ -6,18 +6,17 @@
   "user_name": "Bob Wilson",
   "category": "Access Request",
   "urgency": "Medium",
-  "confidence": 0.92,
-  "reasoning": "User explicitly requests access to a SharePoint site and Teams channel.",
+  "confidence": 0.9,
+  "reasoning": "User explicitly requests access to SharePoint site and Teams channel.",
   "assignment_group": "Identity & Access Team",
   "resolution_status": "Assigned",
-  "resolution_notes": "Assigned to Identity & Access Team",
-  "email_body": "\nHello,\n\nTicket Reference: INC003\n\nCategory: Access Request\nStatus: Assigned\n\nAssigned to Identity & Access Team\n\nThank you,\nIT Service Desk\n",
+  "resolution_notes": "Assigned to Identity & Access Team for Access Request (Medium urgency).",
+  "email_body": "Hi Bob,\n\nThank you for reaching out about SharePoint access. Your ticket (INC003) has been forwarded to our Identity & Access Team for review.\n\nA specialist will contact you shortly to resolve the issue. No action is required on your end at this time.\n\nThanks for your patience!\n\nBest,\nIT Support",
   "actions_log": [
-    "[2026-06-19T07:14:08.282Z] Ticket intake processed",
-    "[2026-06-19T07:14:11.093Z] Classified as Access Request",
-    "[2026-06-19T07:14:11.099Z] Assigned to Identity & Access Team",
-    "[2026-06-19T07:14:11.103Z] Email generated",
-    "[2026-06-19T07:14:11.107Z] Ticket updated"
-  ],
-  "error": ""
+    "[2026-06-20T04:18:12Z] Ticket INC003 intake OK",
+    "[2026-06-20T04:18:14Z] Classified as Access Request / Medium (confidence 0.90)",
+    "[2026-06-20T04:18:14Z] Assigned to Identity & Access Team",
+    "[2026-06-20T04:18:23Z] Notification email generated for bob.wilson@company.com",
+    "[2026-06-20T04:18:23Z] Ticket finalized \u2014 status=Assigned group=Identity & Access Team"
+  ]
 }

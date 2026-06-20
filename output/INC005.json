@@ -5,19 +5,18 @@
   "user_email": "charlie.davis@company.com",
   "user_name": "Charlie Davis",
   "category": "Network/Connectivity",
-  "urgency": "Medium",
-  "confidence": 0.92,
-  "reasoning": "The ticket describes a VPN connection that drops every 10 minutes, which is a clear network connectivity issue. The problem is recurring and likely impacts work, but it is not described as an emergency or critical outage.",
+  "urgency": "High",
+  "confidence": 0.9,
+  "reasoning": "VPN drops every 10 minutes indicates a connectivity problem.",
   "assignment_group": "Network Operations",
   "resolution_status": "Assigned",
-  "resolution_notes": "Assigned to Network Operations",
-  "email_body": "\nHello,\n\nTicket Reference: INC005\n\nCategory: Network/Connectivity\nStatus: Assigned\n\nAssigned to Network Operations\n\nThank you,\nIT Service Desk\n",
+  "resolution_notes": "Assigned to Network Operations for Network/Connectivity (High urgency).",
+  "email_body": "Hi Charlie,\n\nThank you for reaching out about your VPN issue.  \nYour ticket (INC005) has been assigned to our Network Operations team.  \nA specialist will follow up shortly to resolve the disconnects.  \n\nNo action is needed from you right now. We appreciate your patience and will keep you updated.\n\nBest regards,  \nIT Support Team",
   "actions_log": [
-    "[2026-06-19T07:14:14.626Z] Ticket intake processed",
-    "[2026-06-19T07:14:19.592Z] Classified as Network/Connectivity",
-    "[2026-06-19T07:14:19.597Z] Assigned to Network Operations",
-    "[2026-06-19T07:14:19.602Z] Email generated",
-    "[2026-06-19T07:14:19.607Z] Ticket updated"
-  ],
-  "error": ""
+    "[2026-06-20T04:18:27Z] Ticket INC005 intake OK",
+    "[2026-06-20T04:18:36Z] Classified as Network/Connectivity / High (confidence 0.90)",
+    "[2026-06-20T04:18:36Z] Assigned to Network Operations",
+    "[2026-06-20T04:18:38Z] Notification email generated for charlie.davis@company.com",
+    "[2026-06-20T04:18:38Z] Ticket finalized \u2014 status=Assigned group=Network Operations"
+  ]
 }
